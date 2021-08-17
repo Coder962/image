@@ -1,0 +1,30 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background: #8360c3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.heading {
+    width:80%;
+    font-size:30px;
+    background-color: transparent;
+    border: none;
+}
+.heading:hover {
+    background-color: transparent;
+    border: none;
+}
+#camera {
+    border:2px dashed black;
+    width:350px;
+    height:300px;
+}
+.name_of_objects, #result_oject_name , #result_object_accuracy {
+    color:black;
+    text-decoration: underline;
+}
